@@ -127,7 +127,6 @@ body{
 .gamer-container{
     background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
 }
-
 .gamer-content{
     border: 1px solid blue;
     width: 70%;
@@ -135,6 +134,7 @@ body{
     display: flex;
     justify-content: center;
     align-items:center ;
+    padding: 50px 0px;
 }
 .gamer-item{
     text-align: end;
@@ -180,6 +180,50 @@ body{
     color: rgba(73, 71, 71, 0.966);
 }
 /* Gramer section End */
+
+/* gallery section start */
+.gallery-content{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid rgb(71, 236, 5);
+    padding: 50px 0px; 
+}
+.gallery-taile{
+    text-align: center;
+}
+.gallery-taile h1{
+    font-size: 2.5rem;
+    width: 700;
+    
+}
+.gallery-taile span{
+    color: rgb(231, 47, 231);
+}
+.gallery-taile p{
+    font-size: 1rem;
+    width: 300;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+.gallery-img {
+    border: 1px solid brown;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-item img{
+    width: 96%;
+    height: 76%;
+    margin: 0px 7px;  
+}
+.intro{
+    margin: 10px 8px; 
+}
+.gallery-item img:hover{
+    box-shadow: rgb(215, 90, 219)  5px 5px 10px;
+    border-radius: 15px;
+}
+/* gallery section end */
+
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
     /* Navigation Start */
@@ -238,4 +282,15 @@ body{
         width: 100%;
     }
     /* Gramer section End */
+    /* gallery section start */
+    .gallery-content{
+        width: 90%;  
+    }
+    .gallery-img{
+        flex-direction: column;  
+    }
+    /* gallery section end */
+
+ 
+    
 }
