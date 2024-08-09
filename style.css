@@ -298,6 +298,71 @@ body{
 }
 /* game2 section end*/
 
+/* Career section start */
+.career-container{
+   background-color: #ee3f99;
+    color: white;   
+}
+.career-content{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid lawngreen;
+    display: flex;
+    align-items: center;   
+}
+.career-items{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.career-title h1{
+    font-size: 2.5rem;
+    width: 700;
+    margin-bottom: 16px;
+    color: white;
+}
+.career-title p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: rgb(218, 215, 215);
+    width: 85%;
+}
+.career-item1{
+    margin-right: 10%;
+    border: 1px solid blueviolet;
+    text-align: start;  
+}
+.career-item1 p{
+    color: white; 
+    margin-bottom: 40px;
+}
+.career-item2 p{
+    color: white; 
+    margin-bottom: 40px; 
+}
+.career-item2{
+    margin-left: 10%;
+    border: 1px solid blueviolet;
+    text-align: end;
+}
+.career-img img{
+    width: 650px;
+    height: 500px;
+}
+.btn3 a{
+    border: 1px solid red;
+    background-color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: #ee3f99;
+    width: 800;
+    text-decoration: none;
+    margin-top: 100%;
+}
+/* Career section End */
+
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
     /* Navigation Start */
@@ -375,7 +440,6 @@ body{
         padding-left: 0px;
     }
     .game1-title{
-        border: 1px solid brown;
         width: 100%;
         margin-right: 0%;
     }
@@ -395,7 +459,6 @@ body{
         position: absolute;
         width: 38%;
         height: 27%;
-        border: 2px solid green;
         top: 70%;
         right: 60%;
         margin-left: 120px;
@@ -437,5 +500,32 @@ body{
         margin-right: 120px;
     }
     /* game2 section end*/
-    
+
+    /* Career section start */
+    .career-content{
+        width: 90%;
+        flex-direction: column;
+    }
+    .career-items{
+        width: 100%;
+    }
+    .career-title h1{
+        margin-top: 50px;
+    }
+    .career-item1{
+        margin-right: 0;
+        width: 130%; 
+    }
+    .career-item2{
+        margin-left: 0;
+        border: 1px solid blueviolet;
+        text-align: end;
+        width: 150%;
+    }
+    .career-img img{
+        margin-top: 40px;
+        width: 420px;
+        height: 400px;
+    }
+    /* Career section End */
 }
