@@ -193,8 +193,7 @@ body{
 }
 .gallery-taile h1{
     font-size: 2.5rem;
-    width: 700;
-    
+    width: 700;    
 }
 .gallery-taile span{
     color: rgb(231, 47, 231);
@@ -223,6 +222,41 @@ body{
     border-radius: 15px;
 }
 /* gallery section end */
+/* game1 section start */
+.game1-container{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid red;
+    position: relative;
+}
+.game1-content{
+    display: flex;
+    padding-left: 17%;
+    align-items: center;   
+}
+.game1-title{
+    border: 1px solid brown;
+    width: 40%;
+    margin-right: 30%;
+}
+.game1-title h1{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.img2{
+    width: 100%;
+    margin-bottom: 17%;
+}
+.img1{
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    border: 2px solid green;
+    top: 51%;
+    right: 27%;
+    margin-left: 120px;
+}
+/* game1 section start */
 
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
@@ -249,8 +283,7 @@ body{
         width: 90%;
     }
     .banner-img img{
-        width: 100%;
-        
+        width: 100%;   
     }
     .banner-items{
         width: 95%;
@@ -273,7 +306,9 @@ body{
     }
     .gamer-content{
         flex-direction: column;
+       
     }
+  
     .gamer-item{
         text-align: center;
         align-items: center;
@@ -289,8 +324,39 @@ body{
     .gallery-img{
         flex-direction: column;  
     }
-    /* gallery section end */
-
- 
+    /* gallery section end */ 
+    /* game1 section start */
+    .game1-container{
+        width: 90%;
+    }
+    .game1-content{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .game1-title{
+        border: 1px solid brown;
+        width: 100%;
+        margin-right: 0%;
+    }
+    .game1-title h1{
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    .img2{
+        width: 84%;
+        margin-bottom: 17%;
+        margin-left: 16%;
+    }
+    .img1{
+        position: absolute;
+        width: 140px;
+        height: 180px;
+        border: 2px solid green;
+        top: 70%;
+        right: 63%;
+        margin-left: 120px;
+    }
+    /* game1 section End */
     
 }
