@@ -11,15 +11,12 @@ body{
 }
 /* Navigation start */
 .navigation-container{
-    border: 1px solid red;
-    padding: 30px 0px;
-    
+    padding: 30px 0px;   
 }
 .navigation-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid green;
     width: 70%;
     margin: 0 auto;
 }
@@ -52,7 +49,6 @@ body{
 
 /* Banner Style Start */
 .banner-container{
-    border: 1px solid blue;
     width: 70%;
     margin: 0 auto;
 }
@@ -62,13 +58,13 @@ body{
     align-items: center;
 }
 .banner-items{
-    /* border: 1px solid khaki; */
+    width: 40%;
     background-image: url(./images/Group\ 14.png);
     background-position: center;
     background-repeat: no-repeat;
-    padding: 13.7% 0%;
+    padding: 15%;
     margin-right: 30px;
-    padding-right: 26%;
+    padding-left: 3%;
 }
 .banner-items h2{
     font-size: 2rem;
@@ -76,7 +72,6 @@ body{
     margin-bottom: 10px;
 }
 .banner-items h1{
-    border: 1px solid palegreen;
     font-size: 3.5rem;
     width: 800;
     color: rgb(218, 38, 218);
@@ -120,15 +115,16 @@ body{
     margin: 15px 0px; 
 }
 .banner-img img{
-    width: 100%;   
+    width: 100%;  
+    height: 700px; 
 }
 /* Banner Style Start */
+
 /* Gramer section start */
 .gamer-container{
     background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
 }
 .gamer-content{
-    border: 1px solid blue;
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -171,7 +167,6 @@ body{
     font-size: 1.1rem;
     width: 200;
     margin-top: 35px;
-
 }
 .gamer-item h3{
     margin-top: 10px;
@@ -185,7 +180,6 @@ body{
 .gallery-content{
     width: 70%;
     margin: 0 auto;
-    border: 1px solid rgb(71, 236, 5);
     padding: 50px 0px; 
 }
 .gallery-taile{
@@ -205,7 +199,6 @@ body{
     margin-bottom: 35px;
 }
 .gallery-img {
-    border: 1px solid brown;
     display: flex;
     justify-content: space-between;
 }
@@ -227,7 +220,6 @@ body{
 .game1-container{
     width: 70%;
     margin: 0 auto;
-    border: 1px solid red;
     position: relative;
 }
 .game1-content{
@@ -237,7 +229,6 @@ body{
     text-align: center;
 }
 .game1-title{
-    border: 1px solid brown;
     width: 40%;
     margin-right: 30%;
 }
@@ -253,7 +244,6 @@ body{
     position: absolute;
     width: 18%;
     height: 48%;
-    border: 2px solid green;
     top: 51%;
     right: 27%;
     margin-left: 120px;
@@ -264,7 +254,6 @@ body{
 .game2-container{
     width: 70%;
     margin: 0 auto;
-    border: 1px solid red;
     position: relative;
     margin-top: 3%;
 }
@@ -275,7 +264,6 @@ body{
     text-align: center;
 }
 .game2-title{
-    border: 1px solid brown;
     width: 40%;
     margin-left: 30%;
 }
@@ -291,7 +279,6 @@ body{
     position: absolute;
     width: 19%;
     height: 52%;
-    border: 2px solid green;
     top: 47%;
     right: 54%;
     margin-left: 120px;
@@ -306,7 +293,6 @@ body{
 .career-content{
     width: 70%;
     margin: 0 auto;
-    border: 1px solid lawngreen;
     display: flex;
     align-items: center;   
 }
@@ -330,7 +316,6 @@ body{
 }
 .career-item1{
     margin-right: 10%;
-    border: 1px solid blueviolet;
     text-align: start;  
 }
 .career-item1 p{
@@ -343,7 +328,6 @@ body{
 }
 .career-item2{
     margin-left: 10%;
-    border: 1px solid blueviolet;
     text-align: end;
 }
 .career-img img{
@@ -351,7 +335,6 @@ body{
     height: 500px;
 }
 .btn3 a{
-    border: 1px solid red;
     background-color: white;
     font-size: 1.1rem;
     padding: 12px 20px;
@@ -362,12 +345,9 @@ body{
     margin-top: 100%;
 }
 /* Career section End */
-/* gameing-apps-container start */
-.gameing-apps-container{
 
-}
+/* gameing-apps-container start */
 .gameing-apps-content{
-    border: 1px solid purple;
     width: 70%;
     margin: 0 auto;
     padding: 6% 0px;
@@ -395,6 +375,59 @@ body{
 }
 /* gameing-apps-container End */
 
+/* contact section start */
+.contact-container{
+    background: rgb(11, 2, 35);
+    color: white;
+}
+.contact-content{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.contact-heading h2{
+    font-size: 2.6rem;
+    width: bolder;
+    margin-left: 10px;
+    color: #3de709;
+}
+.contact-item1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.contact-item2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;  
+}
+.contact-item2 img{
+    background-color: rgb(177, 156, 236);
+    border-radius: 50%;
+}
+.contact-item2:hover img{
+    background-color: rgb(226, 127, 226);
+    border-radius: 50%;
+}
+.contact-item3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.contact-copyright{
+    text-align: center;
+}
+/* contact section end */
+
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
     /* Navigation Start */
@@ -405,13 +438,13 @@ body{
         display: block;
     }
     .navigation-container{
-        border: 1px solid red;
         padding: 10px 0px;    
     }
     .navigation-content{
         width: 90%;    
     }
     /* Navigation End */
+
     /* Banner start */
     .banner-content {
         flex-direction: column-reverse ;
@@ -420,7 +453,8 @@ body{
         width: 90%;
     }
     .banner-img img{
-        width: 100%;   
+        width: 100%;  
+        height: 400px; 
     }
     .banner-items{
         width: 95%;
@@ -434,9 +468,10 @@ body{
         text-align: center;
         align-items: center;
         padding-left: 20%;
-        padding-right: 20%;
+        padding-right: 0%;
     }
     /* Banner End */
+
     /* Gramer section start */
     .gamer-content{
         width: 90%;
@@ -507,7 +542,6 @@ body{
         padding-left: 0px;
     }
     .game2-title{
-        border: 1px solid brown;
         width: 110%;
         margin-right: 0%;
         margin-left: 17%;
@@ -550,7 +584,6 @@ body{
     }
     .career-item2{
         margin-left: 0;
-        border: 1px solid blueviolet;
         text-align: end;
         width: 150%;
     }
@@ -560,8 +593,9 @@ body{
         height: 400px;
     }
     /* Career section End */
-    /* gameing-apps-container start */
-    .gameing-apps-content{
+
+    /* gaming-apps-container start */
+    .gaming-apps-content{
         width: 90%;
     }
     .exit{
@@ -571,10 +605,30 @@ body{
         display: grid;
         grid-template-columns: repeat( 2,2fr);
     }
-
     .gaming-apps-item2{
         display: grid;
         grid-template-columns: repeat( 2,2fr);
     }
-    /* gameing-apps-container End */
+    /* gaming-apps-container End */
+
+    /* contact-section-start */
+    .contact-content{
+        width: 90%;
+    }
+    .contact-item1 {
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contact-item2 {
+        margin-bottom: 30px;
+    }
+    .contact-item3 {
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    /* contact-section-start */
 }
