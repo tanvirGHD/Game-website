@@ -362,6 +362,38 @@ body{
     margin-top: 100%;
 }
 /* Career section End */
+/* gameing-apps-container start */
+.gameing-apps-container{
+
+}
+.gameing-apps-content{
+    border: 1px solid purple;
+    width: 70%;
+    margin: 0 auto;
+    padding: 6% 0px;
+}
+.gaming-apps-item1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.gaming-apps-item1 p{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.gaming-apps-item2 p{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.gaming-apps-item2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+/* gameing-apps-container End */
 
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
@@ -528,4 +560,21 @@ body{
         height: 400px;
     }
     /* Career section End */
+    /* gameing-apps-container start */
+    .gameing-apps-content{
+        width: 90%;
+    }
+    .exit{
+        display: none;
+    }
+    .gaming-apps-item1{
+        display: grid;
+        grid-template-columns: repeat( 2,2fr);
+    }
+
+    .gaming-apps-item2{
+        display: grid;
+        grid-template-columns: repeat( 2,2fr);
+    }
+    /* gameing-apps-container End */
 }
